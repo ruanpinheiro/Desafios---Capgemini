@@ -9,6 +9,8 @@ namespace Desafio_1_Capgemini
         static void Main(string[] args)
         {
 
+            ArvoreDeAsterisco arvoreDeAsterisco = new();
+
             Console.Write("Entre com o valor de N: ");
 
             bool var = false;
@@ -19,6 +21,7 @@ namespace Desafio_1_Capgemini
                 try
                 {
                     n = int.Parse(Console.ReadLine());
+                    arvoreDeAsterisco.GerarArvore(n);
                     var = true;
                 }
                 catch (Exception)
@@ -28,27 +31,7 @@ namespace Desafio_1_Capgemini
                 }
 
             }
-         
-            for (int i = 0; i <= n; i++)
-            {
-                string linha = string.Empty;
-
-                for (int x = i; x < n; x++)
-                {
-                    linha += " ";
-
-                }
-
-                int qtdasteriscos = n - linha.Length;
-
-                for (int y = 0; y < qtdasteriscos; y++)
-                {
-                    linha += "*";
-                    
-                }
-                    Console.WriteLine(linha);             
-            }
-            Console.ReadLine();
+                 
         }
     }
     }

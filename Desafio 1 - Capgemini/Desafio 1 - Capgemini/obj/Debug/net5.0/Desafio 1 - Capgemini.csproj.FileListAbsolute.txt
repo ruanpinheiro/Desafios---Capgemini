@@ -30,3 +30,19 @@ C:\Users\Usuario\source\repos\Desafio 1 - Capgemini\Desafio 1 - Capgemini\Desafi
 C:\Users\Usuario\source\repos\Desafio 1 - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\ref\Desafio 1 - Capgemini.dll
 C:\Users\Usuario\source\repos\Desafio 1 - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.pdb
 C:\Users\Usuario\source\repos\Desafio 1 - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\bin\Debug\net5.0\Desafio 1 - Capgemini.exe
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\bin\Debug\net5.0\Desafio 1 - Capgemini.deps.json
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\bin\Debug\net5.0\Desafio 1 - Capgemini.runtimeconfig.json
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\bin\Debug\net5.0\Desafio 1 - Capgemini.runtimeconfig.dev.json
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\bin\Debug\net5.0\Desafio 1 - Capgemini.dll
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\bin\Debug\net5.0\ref\Desafio 1 - Capgemini.dll
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\bin\Debug\net5.0\Desafio 1 - Capgemini.pdb
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.dll
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\ref\Desafio 1 - Capgemini.dll
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.pdb
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\obj\Debug\net5.0\Desafio 1 - Capgemini.genruntimeconfig.cache
