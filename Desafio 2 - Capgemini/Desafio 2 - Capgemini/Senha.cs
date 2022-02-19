@@ -8,26 +8,49 @@ using System.Threading.Tasks;
 namespace Desafio_2___Capgemini
 {
        public class Senha
-    {
-        public string SenhaVálida { get; set; }
-
-        public Senha(string senhaVálida)
+       {
+      
+        public int ValidaSenha(string senhaDigitada)
         {
-            SenhaVálida = senhaVálida;
-        }
-        public bool ValidaSenha(string senhaDigitada)
-        {
-            if (senhaDigitada.Length != 6)
-            {
-                return false;
-            }
             
+            int contador = 0;
+
+            if (senhaDigitada.Length < 6)
+            {
+                int caracteresFaltantes = 6 - senhaDigitada.Length;              
+                return caracteresFaltantes;
+            }
+
             Regex regex = new Regex("[0-9]");
 
-            if (regex.IsMatch(senhaDigitada) == false){
-
+            if (regex.IsMatch(senhaDigitada) == false)
+            {
+                contador++;
             }
 
+            regex = new Regex("[a-z]");
+
+            if (regex.IsMatch(senhaDigitada) == false)
+            {
+                contador++;
+            }
+
+            regex = new Regex("[A-Z]");
+
+            if (regex.IsMatch(senhaDigitada) == false)
+            {
+                contador++;
+            }
+
+            regex = new Regex(@"[!@#$%^&*()-+]");
+
+            if (regex.IsMatch(senhaDigitada) == false)
+            {
+                contador++;
+            }         
+
+            return contador;
+
         }
-    }
+       }
 }

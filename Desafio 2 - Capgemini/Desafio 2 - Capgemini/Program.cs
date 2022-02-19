@@ -6,20 +6,13 @@ namespace Desafio_2___Capgemini
     {
         static void Main(string[] args)
         {
-            var senhaValida = false; 
 
-            while (senhaValida == false)
-            {
-                string senha = Console.ReadLine();
+            Senha senhaValida = new Senha();
 
-                if ()
-                {
-                    n = int.Parse(Console.ReadLine());
-                    var = true;
-                }
-                
+            Console.WriteLine("Digite uma senha válida: ");
+            var caracteresFaltantes = senhaValida.ValidaSenha(Console.ReadLine());
+            Console.WriteLine("\n" + caracteresFaltantes);
 
-            }
         }
     }
 }
