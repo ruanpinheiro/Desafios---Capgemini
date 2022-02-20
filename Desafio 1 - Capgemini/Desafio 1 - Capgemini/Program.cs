@@ -4,8 +4,18 @@ using System.Linq;
 
 namespace Desafio_1_Capgemini
 {
+    
     class Program
     {
+        /// <summary>
+        /// Classe que irá realizar a interação com o usuário para receber o valor
+        /// da árvore e ao final imprimir a árvore no console.
+        /// </summary>
+        /// <see cref="ArvoreDeAsterisco"/>
+        /// <value> n é o inteiro que vai receber o valor que o usuário digitar.</value> 
+        /// <exception cref="Exception"> Exceção que caso o usuário não digite um inteiro, cairá no while até digitar
+        /// o valor válido.</exception>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
 
