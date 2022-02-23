@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Desafio 2 - Capgemini</name>
+    </assembly>
+    <members>
+        <member name="T:Desafio_2___Capgemini.Program">
+            <summary>
+            Classe que irá fazer a interação com o usuário recebendo a senha digitada e mostrando
+            a quantidade de digitos faltantes que é necessário caso a senha não atenda os requisitos mínimos.
+            <see cref="T:Desafio_2___Capgemini.Senha"/>
+            </summary>
+        </member>
+        <member name="T:Desafio_2___Capgemini.Senha">
+            <summary>
+            Método ValidaSenha usará um If para validar o tamanho da senha e 
+            quatro regex para válidar se a senha possui números, letras minúsculas, letras maiúsculas e caracteres 
+            especiais.
+            </summary>
+            <param name="senhaDigitada"> Parâmetro que irá receber a senha digitada pelo usuário na classe Program.</param>
+            <value>a varíavel contador inteiro será responsável por contar a quantidade de itens obrigatórios
+            que está faltando na senha digita.</value>
+            <return>Retorna a quantidade de caracteres necessários para uma senha forte.</return>
+        </member>
+    </members>
+</doc>

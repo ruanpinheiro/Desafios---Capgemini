@@ -5,8 +5,8 @@ namespace Desafio_2___Capgemini
     /// <summary>
     /// Classe que irá fazer a interação com o usuário recebendo a senha digitada e mostrando
     /// a quantidade de digitos faltantes que é necessário caso a senha não atenda os requisitos mínimos.
-    /// </summary>
     /// <see cref="Senha"/>
+    /// </summary>
 
     class Program
     {

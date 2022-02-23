@@ -6,4 +6,8 @@
     <RootNamespace>Desafio_1___Capgemini</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini\Desafio 1 - Capgemini.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

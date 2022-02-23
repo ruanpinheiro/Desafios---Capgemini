@@ -1,14 +1,21 @@
-﻿using System;
+﻿using Desafio_3___Capgemini;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Anagramas
 {
+    /// <summary>
+    /// Classe responsavel por fazer a interação com usuário recebendo a palavra ou sequncia de letras para retornar
+    /// a quantidade de anagramas que essa palavra ou sequência de letras possui.
+    /// <see cref="Calcular"/>
+    /// </summary>
     public class Program
     {
         public static void Main()
         {
             bool palavraOuSequenciaDeLetrasValida = false;
+            Calcular calcular = new Calcular();
 
             while (palavraOuSequenciaDeLetrasValida == false)
             {
@@ -19,46 +26,11 @@ namespace Anagramas
                     palavraOuSequenciaDeLetrasValida = true;
 
                     Console.WriteLine("Palavra ou sequencia informada: " + palavraOuSequenciaDeLetras);
-                    Console.WriteLine("Quantidade de Anagramas: " + CalcularAnagramas(palavraOuSequenciaDeLetras));
+                    Console.WriteLine("Quantidade de Anagramas: " + calcular.CalcularAnagramas(palavraOuSequenciaDeLetras));
                 }
             }
         }
 
-        public static int CalcularAnagramas(string palavraOuSequenciaDeLetras)
-        {
-            var index = 0;
-            var quantidadeDeAnagramas = 0;
-            var dicionarioDeAnagramas = new Dictionary<string, int>();
-            var quantidadeDeLetras = palavraOuSequenciaDeLetras.Length;
-
-            string[] listaDeAnagramas = new string[quantidadeDeLetras * (quantidadeDeLetras + 1) / 2];
-
-            for (int i = 0; i < quantidadeDeLetras; i++)
-            {
-                for (int j = i; j < quantidadeDeLetras; j++)
-                {
-                    listaDeAnagramas[index] = palavraOuSequenciaDeLetras.Substring(i, j - i + 1);
-                    index++;
-                }
-            }
-
-            foreach (var anagrama in listaDeAnagramas)
-            {
-                var anagramaOrdenado = string.Concat(anagrama.OrderBy(x => x));
-
-                if (dicionarioDeAnagramas.ContainsKey(anagramaOrdenado))
-                    dicionarioDeAnagramas[anagramaOrdenado]++;
-                else
-                    dicionarioDeAnagramas[anagramaOrdenado] = 1;
-            }
-
-            foreach (var anagrama in dicionarioDeAnagramas.Keys)
-            {
-                if (dicionarioDeAnagramas[anagrama] > 1)
-                    quantidadeDeAnagramas += dicionarioDeAnagramas[anagrama] * (dicionarioDeAnagramas[anagrama] - 1) / 2;
-            }
-
-            return quantidadeDeAnagramas;
-        }
+        
     }
 }

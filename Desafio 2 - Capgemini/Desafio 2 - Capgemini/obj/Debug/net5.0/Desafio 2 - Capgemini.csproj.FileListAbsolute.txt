@@ -14,3 +14,4 @@ C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 2 - Capgemini\Desafio
 C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 2 - Capgemini\Desafio 2 - Capgemini\obj\Debug\net5.0\ref\Desafio 2 - Capgemini.dll
 C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 2 - Capgemini\Desafio 2 - Capgemini\obj\Debug\net5.0\Desafio 2 - Capgemini.pdb
 C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 2 - Capgemini\Desafio 2 - Capgemini\obj\Debug\net5.0\Desafio 2 - Capgemini.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\Desafios - Capgemini\Desafio 2 - Capgemini\Desafio 2 - Capgemini\bin\Debug\net5.0\Desafio 2 - Capgemini.xml
